@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+}
+
+.bg-custom {
+    background-color: #1a5867; /* A close match to the dark teal in the image */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #07fff3; /* Change color on hover */
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    width: 50px;
+}
+.fa-magnifying-glass{
+    /* font-size: 20px; */
+    color: white;
+    margin-top: 10px;
+}
+
+.fa-bag-shopping{
+    /* font-size: 20px; */
+    color: white;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.img-thumbnail{
+    width: 150px;
+    gap: 5px;
+    height: 100px;
+}
+.img-fluid{
+    width: 700px;
+    height: 300px;
+    margin: 2px;
+    padding: 4px;
+}
+
+.card{
+    font-size: small;
+    height: 300px;
+    width: 300px;
+}
+.card p{
+    margin:0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h4, .card ul {
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 5px 0;
+}
+
+button {
+    background-color:  #1a5867;
+    color: white;
+}
+.contain{
+    margin-top: 30px;
+    align-items: center; 
+    display: flex; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+.contain img{
+  height: 250px;
+  width: 250px;
+  /* border: 1px solid #000;
+  border-radius: 5px; */
+}
+.text-cat {
+  margin-right: 20px;
+  font-size: small;
+  margin-left: 40px;
+  /* border-top: 1px solid #ddd;  */
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.last-box{
+    /* font-size: ; */
+    padding: 25px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.last-2ndbox{
+    margin: 20px;
+    /* padding: 50px; */
+    height: 350px;
+    width: 300px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.price {
+    margin-top: 20px;
+}
+
+.price h3 {
+    color: #e74c3c;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  #1a5867;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.date-selector {
+    margin-top: 20px;
+}
+
+.date-selector input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .card-img1 {
+      width: 100%;  /* Set full width for image on phones */
+    }
+  }
